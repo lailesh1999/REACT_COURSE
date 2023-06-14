@@ -2947,16 +2947,17 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading1"
+    id: "heading1",
+    key: "h1"
 }, " heading 1  ");
 const heading1 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading2"
+    id: "heading2",
+    key: "h2"
 }, "heading 2");
 const container1 = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "container"
 }, [
-    heading,
-    heading1
+    heading
 ]);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 //passing react element inside the  root 
