@@ -4,11 +4,15 @@
   "description": "this is basic course",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "lailesh veigas",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.2",
     "process": "^0.11.10"
   },
@@ -16,7 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserlist":[
-    "last 2 chrome versions "
+  "browserslist": [
+    "last 2 versions"
   ]
 }
