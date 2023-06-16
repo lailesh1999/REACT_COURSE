@@ -2944,34 +2944,107 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const heading = /*#__PURE__*/ (0, _react.createElement)("h1", {
-    id: "heading1",
-    key: "h1"
-}, " heading 1  ");
-const heading1 = /*#__PURE__*/ (0, _react.createElement)("h1", {
-    id: "heading2",
-    key: "h2"
-}, "heading 2");
-const heading2 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    id: "title",
-    children: "HELLO REACT dd"
-}, "h2", false, {
-    fileName: "App.js",
-    lineNumber: 11,
-    columnNumber: 18
-}, undefined);
-const container1 = /*#__PURE__*/ (0, _react.createElement)("div", {
-    id: "container"
-}, [
-    heading,
-    heading1,
-    heading2
-]);
+// const heading = React.createElement(
+//     "h1",{
+//             id:"heading1",
+//             key:"h1"
+//         }," heading 1  "
+//         );
+// const heading1 = React.createElement(
+//     "h1",
+// {
+//     id : "heading2",
+//     key:"h2"
+// },"heading 2" );
+//jsx expression
+//reactElement
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        id: "title",
+        className: "ctitle",
+        children: "HELLO REACT bross"
+    }, "h2", false, {
+        fileName: "App.js",
+        lineNumber: 20,
+        columnNumber: 21
+    }, undefined);
+_c = Title;
+// const  container1 =React.createElement(
+//     "div",
+// {
+//     id:"container",
+//    // style:{color:"red",backgroundColor:"grey",}
+// },
+// [heading,heading1,heading2]
+// );
+//functional component 
+//function componenets returns jsx
+const HeaderCompnonet = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 36,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: " NAMSTE REACT FIRST VALID FUNCTIONAL ELEMENT "
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 37,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "HELLO NAMSTE ITS REACT"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 38,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 35,
+        columnNumber: 10
+    }, undefined);
+};
+_c1 = HeaderCompnonet;
+const HeaderCompnonet1 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: " NAMSTE REACT FIRST VALID FUNCTIONAL ELEMENT "
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 42,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "HELLO NAMSTE ITS REACT"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 43,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 41,
+        columnNumber: 32
+    }, undefined);
+_c2 = HeaderCompnonet1;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 //passing react element inside the  root 
-root.render(container1);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderCompnonet, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 47,
+    columnNumber: 13
+}, undefined));
+var _c, _c1, _c2;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeaderCompnonet");
+$RefreshReg$(_c2, "HeaderCompnonet1");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
