@@ -1,5 +1,23 @@
-#container{
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+.nav-items{
+    list-style-type: none;
 
-    background-color: rgb(226, 166, 166);
-    color:rgb(0, 0, 0);
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    display: inline-block;
+
+}
+.logo{
+    width:100px;
+    height: 100px;
+    padding: 9px;
+    border-radius: 60%;
+    
 }

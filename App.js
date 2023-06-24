@@ -1,7 +1,26 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 
+/*
+                header
+                 -logo
+                 -Nav Items(Right side) 
+                 -cart
+                body
+                 -search Bar
+                 -resuaturebt list
+                 -restro cart
+                  -Image
+                  -name
+                  -ratting
+                  -Cusines
+                  -
+                footer
+                 -links 
+                 -copryrigthts
+                 
 
+                */
 // const heading = React.createElement(
 //     "h1",{
 //             id:"heading1",
@@ -15,48 +34,61 @@ import  ReactDOM  from "react-dom/client";
 //     id : "heading2",
 //     key:"h2"
 // },"heading 2" );
-
+                        
 //jsx expression
 //reactElement
 const Title =() => (
-<h1 id="title" key="h2" className="ctitle">HELLO REACT bross</h1>
+<a href="/">  
+    <img className="logo" alt="logo" src="https://cdn.logojoy.com/wp-content/uploads/2018/05/01105727/8_big33-768x591.png"></img>
+</a>
 );
 
 
-// const  container1 =React.createElement(
-//     "div",
-// {
-//     id:"container",
-//    // style:{color:"red",backgroundColor:"grey",}
-// },
 
-// [heading,heading1,heading2]
-// );
-
-
-
-//functional component 
-//function componenets returns jsx
-const HeaderCompnonet = () =>{
+const Header = () =>{
     return (
-    <div>
-        <Title/>
-        <h1> NAMSTE REACT FIRST VALID FUNCTIONAL ELEMENT </h1>
-        <h2>HELLO NAMSTE ITS REACT</h2>
+    <div className="header">
+        <Title />
+        <div className="nav-items">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACTS</li>
+                <li>CART</li>
+            </ul>
+        </div>
     </div>
     );
-};
-
-const HeaderCompnonet1 = () => (
-    <div>
-        <h1> NAMSTE REACT FIRST VALID FUNCTIONAL ELEMENT </h1>
-        <h2>HELLO NAMSTE ITS REACT</h2>
-    </div>
-);
+};   
 
 
+
+
+const Body = () =>{
+    return (
+            <h1>BODY</h1>
+    );
+}
+
+   const Footer = () =>{
+    return (
+            <h1>Footer</h1>
+    );
+}
+
+const AppLayout = () =>{
+    return (
+        <>
+           <Header/>
+           <Body/>
+           <Footer/>
+        </>
+            
+        
+    );
+}
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //passing react element inside the  root 
-root.render(<HeaderCompnonet></HeaderCompnonet>);
+root.render(<AppLayout/>);
