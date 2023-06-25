@@ -8,7 +8,7 @@ import  ReactDOM  from "react-dom/client";
                  -cart
                 body
                  -search Bar
-                 -resuaturebt list
+                 -restro card shou;d have many cards 
                  -restro cart
                   -Image
                   -name
@@ -60,13 +60,93 @@ const Header = () =>{
     </div>
     );
 };   
+//config Driven UI 
 
+// const config =[
+//     {
+//         type:"carousel",
+//         card:[
+//             {
+//                 offerName:"50% off"
+//             },
+//             {
+//                 offerName:"No Delivery Charge"
+//             }
+//         ]
+//     },
+//     {
+//         type:"restaurent",
+//         card:[
+//             {
+//                 name:"BURGER KING",
+//                 image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+//                 cusiness:["Burger","American"],
+//                 rating:"4.2"
+//             },
+//             {
+//                 name:"KFC",
+//                 image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+//                 cusiness:["Burger","American"],
+//                 rating:"4.2"
+//             },
+//         ]
+//     }
+// ]
 
+const restaurentList = [{
+    name:"BURGER KING",
+    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+    cusiness:["Burger","American"],
+    rating:"4.2"
+},
+{
+    name:"BURGER KING",
+    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+    cusiness:["Burger","American"],
+    rating:"4.2"
+},
+{
+    name:"BURGER KING",
+    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+    cusiness:["Burger","American"],
+    rating:"4.2"
+}
+]
+
+const RestrauntCard = () =>
+{
+    return(
+       <div className="card">
+        <img  src={restaurentList.image} />
+        <h2>{buurgerKing.name}</h2>
+        <h3>{buurgerKing.cusiness.join(",")}</h3>
+        <h4>{buurgerKing.rating} stars</h4>
+       </div> 
+    )
+}
 
 
 const Body = () =>{
     return (
-            <h1>BODY</h1>
+        <div className="restaurent-list">
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+                <RestrauntCard/>
+        </div>
+            
     );
 }
 

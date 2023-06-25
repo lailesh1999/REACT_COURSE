@@ -23,7 +23,7 @@
 49E:\sampleHTML\node_modules\js-tokens\package.json133310231789207091 0
 35E:\sampleHTML\node_modules\svgo\lib133310231819055046 1
 77E:\sampleHTML\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133310231823858299 0
-24E:\sampleHTML\.gitignore133313661546241913 0
+24E:\sampleHTML\.gitignore133320926985396955 0
 56E:\sampleHTML\node_modules\@babel\compat-data\plugins.js133312181742829824 0
 39E:\sampleHTML\node_modules\htmlnano\lib133310231799893684 1
 58E:\sampleHTML\node_modules\source-map-js\lib\quick-sort.js133310231795777189 0
@@ -34,7 +34,7 @@
 84E:\sampleHTML\node_modules\@parcel\watcher\prebuilds\darwin-x64\node.napi.glibc.node133310231816584824 0
 75E:\sampleHTML\node_modules\react\cjs\react-jsx-dev-runtime.profiling.min.js133310286327697409 0
 41E:\sampleHTML\node_modules\lmdb\README.md133310231830781979 0
-18E:\sampleHTML\dist133320918213999163 1
+18E:\sampleHTML\dist133321699334929425 1
 67E:\sampleHTML\node_modules\caniuse-lite\data\features\filesystem.js133310231844450145 0
 44E:\sampleHTML\node_modules\lmdb\src\misc.cpp133310231820936437 0
 76E:\sampleHTML\node_modules\@babel\helper-validator-identifier\lib\keyword.js133310231795847000 0
@@ -46,7 +46,7 @@
 77E:\sampleHTML\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133310231853873730 0
 57E:\sampleHTML\node_modules\@parcel\runtime-js\src\helpers133310231822721274 1
 47E:\sampleHTML\node_modules\react\jsx-runtime.js133310286327646913 0
-20E:\sampleHTML\App.js133320917724315424 0
+20E:\sampleHTML\App.js133321699307051693 0
 77E:\sampleHTML\node_modules\react-dom\cjs\react-dom-server.node.development.js133310287374995095 0
 76E:\sampleHTML\node_modules\caniuse-lite\data\features\css-read-only-write.js133310231839424436 0
 79E:\sampleHTML\node_modules\scheduler\umd\scheduler-unstable_mock.development.js133310287372949237 0
@@ -69,7 +69,7 @@
 49E:\sampleHTML\node_modules\scheduler\package.json133310287374130619 0
 55E:\sampleHTML\node_modules\posthtml-parser\package.json133310231796096334 0
 91E:\sampleHTML\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133310231804743483 0
-23E:\sampleHTML\index.css133320899451157939 0
+23E:\sampleHTML\index.css133321686017692800 0
 84E:\sampleHTML\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\050-modules.md133310231816095146 0
 83E:\sampleHTML\node_modules\@swc\helpers\esm\_class_static_private_field_spec_get.js133310231835901362 0
 26E:\sampleHTML\node_modules133312181738294149 1
@@ -276,7 +276,7 @@
 73E:\sampleHTML\node_modules\@swc\helpers\lib\_class_private_method_init.js133310231834605378 0
 50E:\sampleHTML\node_modules\source-map\package.json133310231789187125 0
 77E:\sampleHTML\node_modules\@swc\helpers\lib\_class_apply_descriptor_update.js133310231828262500 0
-41E:\sampleHTML\dist\index.9e4c6fd2.css.map133320918212732277 0
+41E:\sampleHTML\dist\index.9e4c6fd2.css.map133321699333208201 0
 70E:\sampleHTML\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133310231830762054 0
 31E:\sampleHTML\node_modules\csso133310231823120289 1
 57E:\sampleHTML\node_modules\svgo\plugins\removeComments.js133310231808119811 0
@@ -3861,9 +3861,9 @@
 96E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\generated\decode-data-xml.js.map133310231835891393 0
 67E:\sampleHTML\node_modules\caniuse-lite\data\features\matchmedia.js133310231851367538 0
 90E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\generated\encode-html.d.ts133310231838636548 0
-36E:\sampleHTML\dist\index.7826abd7.js133320918213827038 0
+36E:\sampleHTML\dist\index.7826abd7.js133321699334775079 0
 88E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\generated\encode-html.js133310231830430341 0
-40E:\sampleHTML\dist\index.7826abd7.js.map133320918213979230 0
+40E:\sampleHTML\dist\index.7826abd7.js.map133321699334919455 0
 92E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\generated\encode-html.js.map133310231837090904 0
 79E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts133310231838586681 0
 83E:\sampleHTML\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133310231836250435 0
@@ -4683,7 +4683,7 @@
 87E:\sampleHTML\node_modules\caniuse-lite\data\features\keyboardevent-getmodifierstate.js133310231850140313 0
 79E:\sampleHTML\node_modules\caniuse-lite\data\features\keyboardevent-location.js133310231850309870 0
 76E:\sampleHTML\node_modules\caniuse-lite\data\features\keyboardevent-which.js133310231850329804 0
-37E:\sampleHTML\dist\index.9e4c6fd2.css133320918212692391 0
+37E:\sampleHTML\dist\index.9e4c6fd2.css133321699333176780 0
 66E:\sampleHTML\node_modules\@parcel\reporter-cli\lib\CLIReporter.js133310231823828386 0
 70E:\sampleHTML\node_modules\caniuse-lite\data\features\link-icon-svg.js133310231850951781 0
 79E:\sampleHTML\node_modules\caniuse-lite\data\features\link-rel-modulepreload.js133310231851086135 0
@@ -6111,7 +6111,7 @@
 80E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data133310231828202662 1
 80E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist133310231807491518 1
 79E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib133310231814759370 1
-29E:\sampleHTML\dist\index.html133320918213827038 0
+29E:\sampleHTML\dist\index.html133321676651078459 0
 83E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\LICENSE133310231789286865 0
 88E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\package.json133310231828132848 0
 89E:\sampleHTML\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\generator133310231825331042 1
