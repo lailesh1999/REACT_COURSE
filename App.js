@@ -100,51 +100,66 @@ const restaurentList = [{
     rating:"4.2"
 },
 {
-    name:"BURGER KING",
-    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
-    cusiness:["Burger","American"],
+    name:"PIZZA",
+    image:"https://media.cnn.com/api/v1/images/stellar/prod/140430115517-06-comfort-foods.jpg?q=w_1080,h_720,x_100,y_0,c_crop",
+    cusiness:["PIZZA","American"],
     rating:"4.2"
 },
 {
-    name:"BURGER KING",
+    name:"AAAA",
+    image:"https://cdn.britannica.com/98/235798-050-3C3BA15D/Hamburger-and-french-fries-paper-box.jpg",
+    cusiness:["Burger","American"],
+    rating:"5.2"
+},
+{
+    name:"AAAA",
     image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
     cusiness:["Burger","American"],
-    rating:"4.2"
-}
-]
-
-const RestrauntCard = () =>
+    rating:"5.2"
+},
 {
+    name:"AAAA",
+    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+    cusiness:["Burger","American"],
+    rating:"5.2"
+},
+{
+    name:"AAAA",
+    image:"https://cdn.tasteatlas.com/images/toplistarticles/08c818739e4b48ce96d319c16f4cc0ca.jpg?m=facebook",
+    cusiness:["Burger","American"],
+    rating:"5.2"
+}
+];
+const RestrauntCard = ({
+    image,
+    name,
+    cusiness,
+    rating}) =>
+{
+    //destructure ...
+   // const {image,name,cusiness,rating} = restaurent;
+    console.log(props);
     return(
        <div className="card">
-        <img  src={restaurentList.image} />
-        <h2>{buurgerKing.name}</h2>
-        <h3>{buurgerKing.cusiness.join(",")}</h3>
-        <h4>{buurgerKing.rating} stars</h4>
+        <img  src={image} />
+        <h2>{name}</h2>
+        <h3>{cusiness}</h3>
+        <h4>{rating} stars</h4>
        </div> 
     )
 }
 
-
+//props
 const Body = () =>{
     return (
         <div className="restaurent-list">
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
-                <RestrauntCard/>
+            {
+                // res is object of restaurentList for exmpale resturentList[0] as one object and resturentList[1] is second object
+                restaurentList.map(res=>{
+                    return <RestrauntCard  {...res} />
+                })
+            }
+                
         </div>
             
     );
@@ -163,8 +178,7 @@ const AppLayout = () =>{
            <Body/>
            <Footer/>
         </>
-            
-        
+                    
     );
 }
 

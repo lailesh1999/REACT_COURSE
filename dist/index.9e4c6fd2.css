@@ -1,0 +1,40 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items {
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.logo {
+  border-radius: 60%;
+  width: 100px;
+  height: 100px;
+  padding: 9px;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.restaurent-list {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
