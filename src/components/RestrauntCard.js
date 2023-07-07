@@ -6,7 +6,7 @@ export const RestrauntCard = ({
 {
     //destructure ...
    // const {image,name,cusiness,rating} = restaurent;
-    console.log(props);
+    //console.log(props);
     return(
        <div className="card">   
         <img  src={image} />

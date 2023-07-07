@@ -1,3 +1,10 @@
+import { useState } from "react";
+
+ const loggedinUser = () =>{
+    //API call to Check Authenticate
+    return true;
+ }
+
 
   const Title =() => (
     <a href="/">  
@@ -6,6 +13,8 @@
 );
 
  const Header = () =>{
+    const [loggedIN,setLoggedIN] = useState(false);
+    const title  = "FOOD VILLA";
         return (
         <div className="header">
             <Title />
@@ -17,6 +26,12 @@
                     <li>CART</li>
                 </ul>
             </div>
+            {
+                //JS EXPRESSION AND STATEMENT 
+                loggedIN?<button onClick={() =>setLoggedIN(false)}>LOGOUT</button>:<button onClick={() =>setLoggedIN(true)} >LOGIN</button>
+            }
+            
+            
         </div>
     );
 };   
