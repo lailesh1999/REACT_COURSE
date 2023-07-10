@@ -1,14 +1,17 @@
 import { useState } from "react";
+import Logo from "../assets/images/food.jpg";
 
+import {Link } from "react-router-dom";
  const loggedinUser = () =>{
     //API call to Check Authenticate
     return true;
  }
-
+//SPA Single page Application
+//two types of routing client side and Server Side Routing
 
   const Title =() => (
     <a href="/">  
-        <img className="logo" alt="logo" src="https://cdn.logojoy.com/wp-content/uploads/2018/05/01105727/8_big33-768x591.png"></img>
+        <img className="logo" alt="logo" src={Logo}></img>
     </a>
 );
 
@@ -20,9 +23,13 @@ import { useState } from "react";
             <Title />
             <div className="nav-items">
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CONTACTS</li>
+                
+                    <li><Link to="/">HOME</Link></li>
+                    
+                  
+                    <li><Link to="/about">ABOUT</Link></li>
+                  
+                    <li><Link to="/contact">CONTACTS</Link></li>
                     <li>CART</li>
                 </ul>
             </div>
